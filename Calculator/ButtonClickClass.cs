@@ -165,7 +165,7 @@ namespace Calculator
                     string lastStr = strArr[^1];
                     if (int.TryParse(lastChar, out _))
                     {
-                        //OnOrOffButton(arrNumbers);
+                        OnOrOffButton(arrNumbers, ref buttonArray);
                     }
                     else if (lastChar == ",")
                     {
